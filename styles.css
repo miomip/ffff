@@ -1,0 +1,56 @@
+:root {
+    --core-background: #16796F;
+    --header-background:#CADEDF;
+    --main-background:#7CB7AF;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--core-background);
+}
+
+#head {
+    height: 9vh;
+    width: 100%;
+    background-color: var(--header-background);
+    display: flex;
+}
+
+#header-main{
+    flex-grow: 2;
+    height: 100%;
+}
+
+.header-sect {
+    flex-grow: 0.25;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 105vh;
+    background-color: var(--main-background);
+    display: flex;
+}
+
+#main-left {
+    flex-grow: 1;
+
+    height: 100%;
+    background-color: #071110;
+}
+#main-center {
+    flex-grow: 1;
+
+    height: 100%;
+}
+#main-right{
+    flex-grow: 1;
+
+    height: 100%;
+    background-color: #091816;
+}
